@@ -7,7 +7,6 @@ import {
   Typography,
 } from "@material-ui/core";
 import {
-  createTheme,
   makeStyles,
   ThemeProvider,
 } from "@material-ui/core/styles";
@@ -27,14 +26,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const darkTheme = createTheme({
-  palette: {
-    primary: {
-      main: "#fff",
-    },
-    type: "dark",
-  },
-});
+// const darkTheme = createTheme({
+//   palette: {
+//     primary: {
+//       main: "#fff",
+//     },
+//     type: "dark",
+//   },
+// });
 
 function Header() {
   const classes = useStyles();
