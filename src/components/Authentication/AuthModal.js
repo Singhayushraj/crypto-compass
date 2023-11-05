@@ -85,7 +85,7 @@ export default function AuthModal() {
           height: 40,
           marginLeft: 15,
           backgroundColor: "#3f51b5",
-          color:"#fff"
+          color:"white"
         }}
         onClick={handleOpen}
       >
@@ -109,7 +109,7 @@ export default function AuthModal() {
               position="static"
               style={{
                 backgroundColor: "transparent",
-                color: "white",
+                color: "black",
               }}
             >
               <Tabs
